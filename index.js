@@ -33,7 +33,8 @@ function showResults(json) {
 function createIssue() {
   //use this function to create an issue based on the values input in index.html
   const repo = `${user}/js-ajax-fetch-lab-cb-000`;
-  const url = `${baseURL}/repos/${repo}/issues`;
+  // const url = `${baseURL}/repos/${repo}/issues`;
+  const url = '/js-ajax-fetch-lab/issues/'
   const postData = {
     title: document.getElementById('title').value,
     body: document.getElementById('title').value
