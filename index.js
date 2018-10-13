@@ -37,7 +37,7 @@ function createIssue() {
   const url = '/js-ajax-fetch-lab/issues/'
   const postData = {
     title: document.getElementById('title').value,
-    body: document.getElementById('title').value
+    body: document.getElementById('body').value
   }
   fetch(url,{
     method: "POST",
